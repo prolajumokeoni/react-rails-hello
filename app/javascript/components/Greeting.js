@@ -11,9 +11,9 @@ export default function Greeting () {
     const greeting = useSelector(state => state.greetingReducer)
     return (
       <React.Fragment>
-        <h1>
+        <h2>
           Greetings: {greeting.greetings}
-        </h1>
+        </h2>
     </React.Fragment>
     )
 
